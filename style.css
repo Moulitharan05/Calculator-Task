@@ -1,0 +1,36 @@
+#calculator {
+  max-width: 320px;
+  margin: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  background: #f9f9f9;
+}
+
+.display {
+  width: 100%;
+  height: 60px;
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 70px;
+  height: 60px;
+  margin: 5px;
+  font-size: 1.3rem;
+}
+
+button.equals {
+  background-color: #007bff;
+  color: white;
+}
+
+body{
+    margin: 40px;
+    padding: 40px;
+}
